@@ -3,7 +3,7 @@ package operator;
 public class PrepostDemo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		int i = 3;
 		++i; //전위연산자 ()안에서 연산 끗
 		System.out.println(i); //4출력
