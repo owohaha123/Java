@@ -1,6 +1,6 @@
 package method;
 
-import java.io.*;
+import java.io.*; //<- 얘 없으면 참사
 
 public class MethodDemo7 {
 
