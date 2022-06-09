@@ -14,7 +14,7 @@ public class ScannerDemo3 {
 				System.out.println(sc.nextInt()*1000);
 			}
 			sc.close();
-		}catch(FileNotFoundException e){
+		}catch(FileNotFoundException e){ // 객체지향에서 다시!
 			e.printStackTrace();
 		}
 	}
