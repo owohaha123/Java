@@ -1,4 +1,5 @@
 package Classninstance;
+//78강(클래스멤버,인스턴스멤버(4/4)댓글 참고하면 이해 쉬움 ㅠ
 
 class C1{
 	static int static_variable = 1;

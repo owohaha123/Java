@@ -5,7 +5,7 @@ class Calculator{
 	int left, right;
 
 	public void setOprands(int left, int right) {
-		this.left = left; 
+		this.left = left; //= 전역변수 left(5번째줄)는 지역변수 left(7번째줄)의 값이다
 		this.right = right;
 	}
 
