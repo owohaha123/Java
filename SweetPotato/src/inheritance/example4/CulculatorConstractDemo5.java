@@ -2,7 +2,6 @@ package inheritance.example4;
 //inheritance.example4 - culatorConstractDemo4 의 변형
 //8~15줄 추가되었음
 
-
 class Calculator2{
 	int left, right;
 	
