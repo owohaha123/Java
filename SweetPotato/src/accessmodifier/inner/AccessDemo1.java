@@ -33,3 +33,4 @@ public class AccessDemo1 {
 		    이는 [은행]이란 시스템을 보호하기 위함 */
 		/* 본 예제에서의 역할은 아래와 같다
 		   고객: AccessDemo1 / 창구: classA의 y(), x() / 금고: private */
+		
