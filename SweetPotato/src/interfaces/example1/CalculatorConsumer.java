@@ -1,7 +1,7 @@
 package interfaces.example1;
 
-// 가짜클래스 CalculatorDummy 생성하여 임시 사용
-// Calculatable이라는 인터페이스를 implements(구현)하여 예외적 상황이나 오류를 감소 (규격지정)
+// 가짜클래스 CalculatorDummy 생성하여 임시사용
+// Calculatable이라는 인터페이스에 따라서 implements(구현)하여 예외적 상황이나 오류를 감소 (규격지정)
 class CalculatorDummy implements Calculatable{
 	public void setOperands (int first, int second, int third){}
 	public int sum() {

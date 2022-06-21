@@ -17,5 +17,6 @@ class B implements I4 {
 
 // interface 의 멤버는 반드시 [public]이어야 함
 
+// <abstract vs. interface>
 // abstract class는 하위클래스에서 상속받아 사용하는 것을 강제하는 것 외엔 일반적 클래스와 같음
 // interface는 본체가 없는 메소드만을 가질 수 있음 (구체적 로직x) 

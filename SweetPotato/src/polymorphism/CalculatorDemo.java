@@ -1,4 +1,5 @@
-package abstractclass.example1;
+package polymorphism;
+//abstractclass.example1;_CalculatorDemo 의 발전
 
 abstract class Calculator{
 	int left, right;
@@ -37,9 +38,18 @@ class CalculatorDecoMinus extends Calculator{
 }
 
 public class CalculatorDemo {
-	public static void main(String[] args) {
-		CalculatorDecoPlus c1 = new CalculatorDecoPlus();
+	public static void excute(Calculator cal) {
+		System.out.println("실행결과");
+		cal.run();
+	}
+public static void main(String[] args) {
+		Calculator c1 = new CalculatorDecoPlus();
 		c1.setOprands(10,20);
-		c1.run();	
+		
+		Calculator c2 = new CalculatorDecoMinus();
+		c2.setOprands(10,20);
+		
+		excute(c1);
+		excute(c2);
 	}
 }
