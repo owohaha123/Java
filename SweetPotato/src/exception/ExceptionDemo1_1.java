@@ -1,9 +1,9 @@
 package exception;
 //exception_ExceptionDemo1 °ú ºñ±³
 
-class B{
+class A1{
 	private int[] arr = new int[3];
-	B() {
+	A1() {
 		arr[0]=0;
 		arr[1]=10;
 		arr[2]=20;
@@ -25,9 +25,9 @@ class B{
 
 public class ExceptionDemo1_1 {
 	public static void main(String[] args) {
-		B b = new B();
-		b.z(10,0);
-		b.z(1,0); 
-		b.z(2,1); 
+		A1 a1 = new A1();
+		a1.z(10,0);
+		a1.z(1,0); 
+		a1.z(2,1); 
 	}
 }
